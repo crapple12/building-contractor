@@ -1,0 +1,52 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1448387406/photo/the-rear-view-of-a-large-gray-craftsman-new-construction-house-with-a-landscaped-yard-and-a.jpg?s=2048x2048&w=is&k=20&c=WOf3s5UtZ5Lvst5d61K-G_T5hZPqBNkpluUZqsSItgI=);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 140px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.left {
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 50px;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 320px;
+    padding-bottom: 320px;
+}
+
+.section-2 {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-color: white;
+    
+}
+
+.home {
+    color: grey;
+    font-family: verdana;
+    font-size: 35px;
+}
