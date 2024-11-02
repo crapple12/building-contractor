@@ -1,0 +1,152 @@
+body {
+    background-image: url(https://i.pinimg.com/1200x/75/60/4f/75604f31d9f3830e86eea91d054a066a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 140px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.left {
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 50px;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+a:visited {
+    color: black;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 320px;
+    padding-bottom: 320px;
+}
+
+.home {
+    color: white;
+    font-family: verdana;
+    font-size: 35px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding-right: 20px;
+    background-color: white; 
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding-right: 20px;
+    background-color: white; 
+    justify-content: center;
+}
+
+.container {
+    background-image:url(https://i.pinimg.com/1200x/62/e1/97/62e1975152def5a7ced648f22a4a1b64.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+.container-2 {
+    background-image:url(https://i.pinimg.com/1200x/19/f6/c6/19f6c66ba46613338347c917d4b0f097.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+.words {
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    background: white;
+    padding-bottom: 0px;
+}
+
+.outdoors {
+    width: 50%;
+    height: 60vh;
+}
+
+.text-container {
+    position: absolute;
+    color: black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.end {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
