@@ -1,3 +1,5 @@
+
+
 body {
     background-image: url(https://i.pinimg.com/1200x/75/60/4f/75604f31d9f3830e86eea91d054a066a.jpg);
     background-repeat: no-repeat;
@@ -8,14 +10,12 @@ body {
 }
 
 header {
+    min-height: 120px;
     display: flex;
     background-color: white;
     justify-content: space-between;
 }
 
-.logo {
-    height: 140px;
-}
 
 .nav {
     list-style: none;
@@ -27,7 +27,7 @@ header {
 .right {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 1%;
     gap: 50px;
     font-size: 18px;
     font-family: verdana;
@@ -77,7 +77,6 @@ footer {
     position: relative;
     width: 100%;
     text-align: center;
-    padding-bottom: 50px;
     background: white;
     padding-bottom: 0px;
 }
@@ -119,3 +118,17 @@ h1 {
     background: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media screen and (max-width: 1380px) {
+    body {
+        min-width: 1380px;
+    }
+ }
+
+ @media screen and (max-width: 475px) {
+    body {
+        min-width: 1380px;
+        max-height: 635px;
+    }
+ }
+ 
