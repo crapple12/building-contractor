@@ -162,6 +162,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     height: 150px;
+    border-radius: 5px;
 }
 
 button {
@@ -170,6 +171,7 @@ button {
     background-color: black;
     padding: 10px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 h1 {
