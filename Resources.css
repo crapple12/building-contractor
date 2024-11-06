@@ -114,6 +114,7 @@ a:visited {
     width: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-radius: 5px;
 }
 
 .back {
@@ -123,7 +124,6 @@ a:visited {
     margin: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
 }
 
 .container {
@@ -149,6 +149,7 @@ a:visited {
     padding-right: 100px;
     height: 100px;
     margin: 10%;
+    border-radius: 5px;
 }
 
 .container-3 {
@@ -161,7 +162,7 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    background-color: rgb(227, 195, 129, 0.5);
 }
 
 .words {
@@ -183,6 +184,7 @@ button {
     background-color: black;
     padding: 15px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 h1 {
