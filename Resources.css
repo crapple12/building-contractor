@@ -78,7 +78,6 @@ a:visited {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 .image {
@@ -117,17 +116,26 @@ a:visited {
     padding-bottom: 50px;
 }
 
+.back {
+    background-image:url(https://i.pinimg.com/1200x/90/78/a1/9078a1a511ee143d9db8ee6d571ceb30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
 .container {
     background-image:url(https://i.pinimg.com/1200x/62/e1/97/62e1975152def5a7ced648f22a4a1b64.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     margin: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .container-2 {
@@ -143,6 +151,18 @@ a:visited {
     margin: 10%;
 }
 
+.container-3 {
+    background-color: beige;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
 
 .words {
     font-size: 22px;
