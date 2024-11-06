@@ -170,6 +170,7 @@ a:visited {
 }
 
 footer {
+    padding-top: 30px;
     text-align: center;
     padding-bottom: 50px;
     background: white;
