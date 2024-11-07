@@ -1,0 +1,171 @@
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    min-height: 120px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 140px;
+}
+
+
+.nav {
+    list-style: none;
+}
+
+.left {
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 50px;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact {
+    flex-direction: column;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+input[type=text], select, textarea {
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
+.container-1 {
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.info {
+    flex-direction: column;
+    justify-content: baseline;
+    padding-left: 60px;
+}
+
+.start {
+    background: url(https://media.istockphoto.com/id/1990444472/photo/scandinavian-style-cozy-living-room-interior.jpg?s=1024x1024&w=is&k=20&c=kHJB-lnK-XmClW7tcWCO68POsyd6H3v0RA5IWCEODb4=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white; 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container {
+    background-color: white;
+    margin: 10%;
+    align-items: center;
+    width: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+}
+
+.words {
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+    background: white;
+    padding-bottom: 0px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.end {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 1380px) {
+    body {
+        min-width: 1380px;
+    }
+ }
+
+ @media screen and (max-width: 475px) {
+    body {
+        min-width: 1380px;
+        max-height: 635px;
+    }
+ }
+
+ @media screen and (max-width: 365px) {
+    body {
+        min-width: 1380px;
+        max-height: 570px;
+    }
+ }
+ 
