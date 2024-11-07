@@ -41,6 +41,10 @@ a:visited {
     color: black;
 }
 
+a:link {
+    color: black;
+}
+
 .sub-header {
     background-color: rgba(0, 0, 1, 0.7);
     padding: 20px;
@@ -93,7 +97,6 @@ a:visited {
     margin: 0 auto;
     padding: 20px 10px;
     font-size: 22px;
-
 }
 
 .projects img {
