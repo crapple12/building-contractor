@@ -37,6 +37,10 @@ a:visited {
     color: black;
 }
 
+a:link {
+    color: black;
+}
+
 .section-1 {
     display: flex;
     justify-content: center;
