@@ -42,7 +42,6 @@ a:link {
 
 .section-1 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -50,6 +49,7 @@ a:link {
 }
 
 .contact {
+    display: flex;
     flex-direction: column;
     padding-right: 60px;
     padding-left: 60px;
@@ -89,8 +89,8 @@ ul {
 }
 
 .info {
+    display: flex;
     flex-direction: column;
-    justify-content: baseline;
     padding-left: 60px;
 }
 
@@ -155,17 +155,25 @@ h1 {
     }
  }
 
- @media screen and (max-width: 475px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
     body {
-        min-width: 1380px;
-        max-height: 635px;
+        width: 1200px;
+        height: 1000px;
     }
  }
 
- @media screen and (max-width: 365px) {
+ @media screen and (min-width: 400px) and (max-width: 700px) {
     body {
-        min-width: 1380px;
-        max-height: 570px;
+        min-width: 1200px;
+        height: 1000px;
     }
  }
+
+ @media screen and (min-width: 375px) and (max-width: 700px) {
+    body {
+        min-width: 1200px;
+        height: 1000px;
+    }
+ }
+
  
