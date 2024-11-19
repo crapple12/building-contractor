@@ -23,6 +23,15 @@ header {
 .left {
     align-items: center;
 }
+
+.middle {
+    color: black;
+}
+
+.box {
+    padding: 20px;
+}
+
 .right {
     display: flex;
     align-items: center;
@@ -46,6 +55,26 @@ a:link {
     padding-top: 120px;
     padding-bottom: 120px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.locations iframe {
+    width: 500px;
 }
 
 .contact {
