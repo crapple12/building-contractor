@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    min-height: 120px;
     display: flex;
     background-color: white;
     justify-content: space-between;
@@ -24,6 +25,15 @@ header {
 .left {
     align-items: center;
 }
+
+.middle {
+    color: black;
+}
+
+.box {
+    padding: 20px;
+}
+
 .right {
     display: flex;
     align-items: center;
@@ -34,6 +44,10 @@ header {
 }
 
 a:visited {
+    color: black;
+}
+
+a:link {
     color: black;
 }
 
@@ -124,8 +138,8 @@ a:visited {
 }
 
 .indoors-3 {
-    height: 1000px;
-    width: 1000px;
+    height: 800px;
+    width: 800px;
     padding-left: 40px;
 }
 
@@ -191,3 +205,23 @@ h1 {
         min-width: 1380px;
     }
  }
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    body {
+        width: 1200px;
+        height: 1000px;
+    }
+ }
+
+ /* @media screen and (min-width: 400px) and (max-width: 700px) {
+    body {
+        min-width: 1200px;
+        height: 1000px;
+    }
+
+    header {
+        width: 1200px;
+    }
+ } */
+
+
