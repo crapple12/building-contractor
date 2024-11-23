@@ -9,12 +9,21 @@
 <body>
     <header>
         <div class="left">
-            <img class="logo" src="https://i.pinimg.com/564x/90/f9/d3/90f9d3836933de6722370e1bafc6e253.jpg">
+            <span><a href="https://crapple12.github.io/building-contractor/"><img class="logo" src="https://i.pinimg.com/564x/90/f9/d3/90f9d3836933de6722370e1bafc6e253.jpg"></a></span>
         </div>
         <div class="middle">
-            <span class="box"></span>
         </div>
         <div class="right">
+            <span  class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/" style="text-decoration: none;">HOME</a></span>
+            <span  class="hideOnMobile"><strong><a href="https://crapple12.github.io/building-contractor/Company" style="text-decoration: none;">COMPANY</a></strong></span>
+            <span  class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Resources" style="text-decoration: none;">RESOURCES</a></span>
+            <span  class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Financing" style="text-decoration: none;">FINANCING</a></span>
+            <span  class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Portfolio" style="text-decoration: none;">PORTFOLIO</a></span>
+            <span  class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Contact" style="text-decoration: none;">CONTACT</a></span>
+            <span onclick=showSidebar() class="menu"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+        </div>
+        <div class="sidebar">
+            <span onclick=hideSidebar() class="menu"><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span>
             <span><a href="https://crapple12.github.io/building-contractor/" style="text-decoration: none;">HOME</a></span>
             <span><strong><a href="https://crapple12.github.io/building-contractor/Company" style="text-decoration: none;">COMPANY</a></strong></span>
             <span><a href="https://crapple12.github.io/building-contractor/Resources" style="text-decoration: none;">RESOURCES</a></span>
@@ -40,7 +49,7 @@
         <div class="words">
             <p>We also provide financing options to ensure that everyone has access to our services. We all are passionate about creating unique, personalized structures and our highly skilled craftsmen are sure to deliver nothing but the best of the best. With the custom builds from our company, you can be confident that your home will be unlike any other. We offer you the opportunity to join us in creating the home of your dreams.</p>
         </div>
-        <img class="indoors-2" src="https://i.pinimg.com/1200x/c9/42/c0/c942c077e76f38831a8f01e9cb221fb2.jpg">
+        <img class="indoors" src="https://i.pinimg.com/1200x/c9/42/c0/c942c077e76f38831a8f01e9cb221fb2.jpg">
     </div>
     <div class="section-3">
         <div class="words">
@@ -56,7 +65,7 @@
             <h1>WHO WE ARE</h1>
             <p>We are a team of architects, engineers designers, and field construction personnel that works together to achieve spectacular results in design build projects.</p>
         </div>
-        <img class="indoors-3" src="https://i.pinimg.com/1200x/f2/a9/2b/f2a92b6dfc66e435f121a6036529e941.jpg">
+        <img class="indoors" src="https://i.pinimg.com/1200x/f2/a9/2b/f2a92b6dfc66e435f121a6036529e941.jpg">
     </div>
     <div class="section-4">
         <div class="meet">
@@ -83,13 +92,8 @@
                 <img src="https://i.pinimg.com/1200x/4f/ac/56/4fac569a24849278a5044cc6b90abdc9.jpg">
                 <p>Mary Jane</p>
             </div>
-            <div>
-                <img src="https://i.pinimg.com/564x/24/28/e1/2428e1b46706caab74e4aa56f45d0067.jpg">
-                <p>Jovia Oslo</p>
-            </div>
         </div>
     </div>
-
 
     <footer>
         <div class="start">
@@ -107,5 +111,17 @@
             <div>(703) 511-4765 x86926</div>
         </div>
     </footer>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "flex"
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "none"
+        }
+    </script>
+
 </body>
 </html>
