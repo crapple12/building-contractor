@@ -119,8 +119,8 @@ a:link {
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white; 
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container {
@@ -158,7 +158,7 @@ button {
     background-color: black;
     padding: 10px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 h1 {
@@ -173,27 +173,9 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media screen and (max-width: 1380px) {
-    body {
-        min-width: 1380px;
-    }
- }
 
- @media screen and (max-width: 475px) {
-    body {
-        min-width: 1380px;
-        max-height: 635px;
-    }
- }
 
- @media screen and (max-width: 365px) {
-    body {
-        min-width: 1380px;
-        max-height: 570px;
-    }
- }
-
- @media(max-width: 800px) {
+ @media(max-width: 1200px) {
     .hideOnMobile{
         display: none;
     }
@@ -203,9 +185,21 @@ h1 {
     }
  }
 
- @media(max-width: 400px) {
+ @media(max-width: 425px) {
     .sidebar{
         width: 100%;
+        align-items: center;
     }
  }
  
+ @media(max-width: 1200px) {
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .indoors {
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+ }
