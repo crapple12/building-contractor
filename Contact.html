@@ -15,6 +15,16 @@
             <span class="box"></span>
         </div>
         <div class="right">
+            <span class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/" style="text-decoration: none;">HOME</a></span>
+            <span class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Company" style="text-decoration: none;">COMPANY</a></span>
+            <span class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Resources" style="text-decoration: none;">RESOURCES</a></span>
+            <span class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Financing" style="text-decoration: none;">FINANCING</a></span>
+            <span class="hideOnMobile"><a href="https://crapple12.github.io/building-contractor/Portfolio" style="text-decoration: none;">PORTFOLIO</a></span>
+            <span class="hideOnMobile"><strong><a href="https://crapple12.github.io/building-contractor/Contact" style="text-decoration: none;">CONTACT</a></strong></span>
+            <span onclick=showSidebar() class="menu"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+        </div>
+        <div class="sidebar">
+            <span onclick=hideSidebar() class="menu"><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span>
             <span><a href="https://crapple12.github.io/building-contractor/" style="text-decoration: none;">HOME</a></span>
             <span><a href="https://crapple12.github.io/building-contractor/Company" style="text-decoration: none;">COMPANY</a></span>
             <span><a href="https://crapple12.github.io/building-contractor/Resources" style="text-decoration: none;">RESOURCES</a></span>
@@ -80,13 +90,12 @@
         <h1>OUR LOCATIONS</h1>
         <div class="locations">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26467.19016191845!2d-118.48254276523436!3d33.9822897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba981eeda44b%3A0x4db1b1dad07862f6!2s475%20Washington%20Blvd%2C%20Marina%20Del%20Rey%2C%20CA%2090292!5e0!3m2!1sen!2sus!4v1732036739922!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1732036913344!6m8!1m7!1sPWVTuLh1CLsUpPD_pj-FoA!2m2!1d34.02141519478965!2d-118.2737769847988!3f109.101814!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
     <footer>
         <div class="start">
             <div class="container">
-                <h1>Have You Worked With Us</h1>
+                <h1>Have You Worked With Us?</h1>
                 <div>We would love to hear from you!</div>
                 <p></p>
                 <button type="button">Write a Review</button>
@@ -98,5 +107,17 @@
             <div>(703) 511-4765 x86926</div>
         </div>
     </footer>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "flex"
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "none"
+        }
+    </script>
+
 </body>
 </html>
