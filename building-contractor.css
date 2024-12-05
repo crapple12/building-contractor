@@ -123,9 +123,18 @@ a:link {
     margin-right: 20px;
 }
 
+.borders {
+    position: relative;
+    border: 2px solid rgb(20, 27, 35);
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2px;
+    background-color:rgb(238, 233, 227);
+  }
+
 .container {
-    background-color: white;
-    margin: 10%;
+    background-color:rgb(238, 233, 227);
+    border: 2px solid rgb(20, 27, 35);
     align-items: center;
     width: auto;
     padding-top: 70px;
