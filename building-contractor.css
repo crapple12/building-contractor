@@ -105,8 +105,8 @@ a:link {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5%;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     background-color: white;
     
 }
@@ -146,12 +146,15 @@ a:link {
 .indoors {
     height: 800px;
     width: 800px;
-    padding-right: 25px;
 }
 
 .words {
+    background-color:rgb(238, 233, 227);
+    border: 2px solid rgb(20, 27, 35);
     font-size: 22px;
-    padding-left: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
 }
 
 footer {
@@ -178,8 +181,11 @@ h1 {
     margin-top: 20px;
     padding: 20px;
     color: white;
-    background: black;
+    background-color: rgb(168, 151, 123);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px solid black;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 
@@ -215,6 +221,6 @@ h1 {
 
  @media(max-width: 630px) {
     body {
-        line-height: 35px;
+        line-height: 30px;
     }
  }
