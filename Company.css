@@ -187,29 +187,18 @@ a:link {
     margin: 20px;
 }
 
-.borders {
-    position: relative;
-    border: 2px solid rgb(20, 27, 35);
-    border-radius: 10px;
-    margin: 5%;
-    padding: 2px;
-    background-color:rgb(238, 233, 227);
-  }
-
-.borders-2 {
-    position: relative;
-    border: 2px solid rgb(20, 27, 35);
-    border-radius: 10px;
-    padding: 2px;
-    padding-bottom: 0px;
-    background-color:rgb(238, 233, 227);
-  }
-
-.words {
+.words-2 {
     background-color:rgb(238, 233, 227);
     border: 2px solid rgb(20, 27, 35);
     font-size: 22px;
-    padding-left: 15px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.words {
+    font-size: 22px;
+    padding-left: 25px;
     padding-right: 15px;
     border-radius: 5px;
 }
@@ -260,12 +249,10 @@ h1 {
 .end {
     margin-top: 20px;
     padding: 20px;
+    background-color: black;
     color: white;
-    background-color: rgb(168, 151, 123);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-top: 2px solid black;
-    text-decoration: underline;
-    text-decoration-color: black;
 }
 
 @media(max-width: 1200px) {
