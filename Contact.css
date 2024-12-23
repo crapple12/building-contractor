@@ -5,6 +5,9 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     background-color: white;
     justify-content: space-between;
@@ -166,8 +169,6 @@ ul {
 }
 
 .container {
-    background-color: white;
-    margin: 10%;
     align-items: center;
     width: auto;
     padding-top: 70px;
@@ -206,6 +207,15 @@ h1 {
     color: white;
     background: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.borders {
+    position: relative;
+    border: 2px solid rgb(20, 27, 35);
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2px;
+    background-color: rgb(238, 233, 227);
 }
 
 @media(max-width: 1200px) {
