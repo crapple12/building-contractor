@@ -224,8 +224,6 @@ footer {
 }
 
 .container {
-    background-color:rgb(238, 233, 227);
-    border: 2px solid rgb(20, 27, 35);
     align-items: center;
     width: auto;
     padding-top: 70px;
@@ -253,6 +251,15 @@ h1 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-top: 2px solid black;
+}
+
+.borders {
+    position: relative;
+    border: 2px solid rgb(20, 27, 35);
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2px;
+    background-color: rgb(238, 233, 227);
 }
 
 @media(max-width: 1200px) {
