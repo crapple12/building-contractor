@@ -24,7 +24,7 @@ header {
     border-radius: 10px;
     margin: 5%;
     padding: 2px;
-    background-color:rgb(238, 233, 227);
+    background-color: rgb(238, 233, 227);
   }
 
 .logo {
@@ -165,8 +165,6 @@ a:link {
 }
 
 .container-0 {
-    background-color:rgb(238, 233, 227);
-    border: 2px solid rgb(20, 27, 35);
     align-items: center;
     width: auto;
     padding-top: 70px;
@@ -209,13 +207,13 @@ a:link {
 }
 
 .container-3 {
+    background-color: rgb(227, 195, 129, 0.5);
     margin: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(227, 195, 129, 0.5);
 }
 
 .words {
@@ -225,7 +223,6 @@ a:link {
 footer {
     padding-top: 30px;
     text-align: center;
-    padding-bottom: 50px;
     background: white;
     padding-bottom: 0px;
 }
@@ -247,11 +244,9 @@ h1 {
     margin-top: 20px;
     padding: 20px;
     color: white;
-    background-color: rgb(168, 151, 123);
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-top: 2px solid black;
-    text-decoration: underline;
-    text-decoration-color: black;
 }
 
 @media(max-width: 1200px) {
